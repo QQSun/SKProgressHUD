@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8419204A1DCC854F00FF5BF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841920491DCC854F00FF5BF3 /* AppDelegate.swift */; };
+		8419204C1DCC854F00FF5BF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419204B1DCC854F00FF5BF3 /* ViewController.swift */; };
+		8419204F1DCC855000FF5BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8419204D1DCC855000FF5BF3 /* Main.storyboard */; };
+		841920511DCC855000FF5BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841920501DCC855000FF5BF3 /* Assets.xcassets */; };
+		841920541DCC855000FF5BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841920521DCC855000FF5BF3 /* LaunchScreen.storyboard */; };
+		8419205D1DCC85A200FF5BF3 /* SKProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419205C1DCC85A200FF5BF3 /* SKProgressHUD.swift */; };
+		8419205F1DCC85D200FF5BF3 /* SKRoundProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419205E1DCC85D200FF5BF3 /* SKRoundProgressView.swift */; };
+		841920611DCC85F600FF5BF3 /* SKBarProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841920601DCC85F600FF5BF3 /* SKBarProgressView.swift */; };
+		841920631DCC861300FF5BF3 /* SKBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841920621DCC861300FF5BF3 /* SKBackgroundView.swift */; };
+		8436AE061DD15EF50000B401 /* SKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436AE051DD15EF50000B401 /* SKExtension.swift */; };
+		846A89C21DD2B33B00D6BE22 /* SKRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A89C11DD2B33B00D6BE22 /* SKRoundedButton.swift */; };
+		847D251E1DD3FCD70061D00B /* Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D251B1DD3FCD70061D00B /* Checkmark.png */; };
+		847D251F1DD3FCD70061D00B /* Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D251C1DD3FCD70061D00B /* Checkmark@2x.png */; };
+		847D25201DD3FCD70061D00B /* Checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D251D1DD3FCD70061D00B /* Checkmark@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		841920461DCC854E00FF5BF3 /* SKProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841920491DCC854F00FF5BF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8419204B1DCC854F00FF5BF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8419204E1DCC855000FF5BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841920501DCC855000FF5BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841920531DCC855000FF5BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		841920551DCC855100FF5BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8419205C1DCC85A200FF5BF3 /* SKProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKProgressHUD.swift; sourceTree = "<group>"; };
+		8419205E1DCC85D200FF5BF3 /* SKRoundProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKRoundProgressView.swift; sourceTree = "<group>"; };
+		841920601DCC85F600FF5BF3 /* SKBarProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKBarProgressView.swift; sourceTree = "<group>"; };
+		841920621DCC861300FF5BF3 /* SKBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKBackgroundView.swift; sourceTree = "<group>"; };
+		8436AE051DD15EF50000B401 /* SKExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKExtension.swift; sourceTree = "<group>"; };
+		846A89C11DD2B33B00D6BE22 /* SKRoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKRoundedButton.swift; sourceTree = "<group>"; };
+		847D251B1DD3FCD70061D00B /* Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkmark.png; sourceTree = "<group>"; };
+		847D251C1DD3FCD70061D00B /* Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark@2x.png"; sourceTree = "<group>"; };
+		847D251D1DD3FCD70061D00B /* Checkmark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841920431DCC854E00FF5BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8419203D1DCC854E00FF5BF3 = {
+			isa = PBXGroup;
+			children = (
+				841920481DCC854E00FF5BF3 /* SKProgressHUD */,
+				841920471DCC854E00FF5BF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841920471DCC854E00FF5BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841920461DCC854E00FF5BF3 /* SKProgressHUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841920481DCC854E00FF5BF3 /* SKProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8419205B1DCC857700FF5BF3 /* SKProgressHUD */,
+				841920491DCC854F00FF5BF3 /* AppDelegate.swift */,
+				8419204B1DCC854F00FF5BF3 /* ViewController.swift */,
+				8419204D1DCC855000FF5BF3 /* Main.storyboard */,
+				841920501DCC855000FF5BF3 /* Assets.xcassets */,
+				841920521DCC855000FF5BF3 /* LaunchScreen.storyboard */,
+				841920551DCC855100FF5BF3 /* Info.plist */,
+				847D251B1DD3FCD70061D00B /* Checkmark.png */,
+				847D251C1DD3FCD70061D00B /* Checkmark@2x.png */,
+				847D251D1DD3FCD70061D00B /* Checkmark@3x.png */,
+			);
+			path = SKProgressHUD;
+			sourceTree = "<group>";
+		};
+		8419205B1DCC857700FF5BF3 /* SKProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8419205C1DCC85A200FF5BF3 /* SKProgressHUD.swift */,
+				8419205E1DCC85D200FF5BF3 /* SKRoundProgressView.swift */,
+				841920601DCC85F600FF5BF3 /* SKBarProgressView.swift */,
+				841920621DCC861300FF5BF3 /* SKBackgroundView.swift */,
+				846A89C11DD2B33B00D6BE22 /* SKRoundedButton.swift */,
+				8436AE051DD15EF50000B401 /* SKExtension.swift */,
+			);
+			path = SKProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841920451DCC854E00FF5BF3 /* SKProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841920581DCC855100FF5BF3 /* Build configuration list for PBXNativeTarget "SKProgressHUD" */;
+			buildPhases = (
+				841920421DCC854E00FF5BF3 /* Sources */,
+				841920431DCC854E00FF5BF3 /* Frameworks */,
+				841920441DCC854E00FF5BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKProgressHUD;
+			productName = SKProgressHUD;
+			productReference = 841920461DCC854E00FF5BF3 /* SKProgressHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8419203E1DCC854E00FF5BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = nachuan;
+				TargetAttributes = {
+					841920451DCC854E00FF5BF3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DH5U9AW4GH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 841920411DCC854E00FF5BF3 /* Build configuration list for PBXProject "SKProgressHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8419203D1DCC854E00FF5BF3;
+			productRefGroup = 841920471DCC854E00FF5BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841920451DCC854E00FF5BF3 /* SKProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841920441DCC854E00FF5BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841920541DCC855000FF5BF3 /* LaunchScreen.storyboard in Resources */,
+				847D251E1DD3FCD70061D00B /* Checkmark.png in Resources */,
+				841920511DCC855000FF5BF3 /* Assets.xcassets in Resources */,
+				847D25201DD3FCD70061D00B /* Checkmark@3x.png in Resources */,
+				8419204F1DCC855000FF5BF3 /* Main.storyboard in Resources */,
+				847D251F1DD3FCD70061D00B /* Checkmark@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841920421DCC854E00FF5BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8419204C1DCC854F00FF5BF3 /* ViewController.swift in Sources */,
+				8419205D1DCC85A200FF5BF3 /* SKProgressHUD.swift in Sources */,
+				841920631DCC861300FF5BF3 /* SKBackgroundView.swift in Sources */,
+				8419205F1DCC85D200FF5BF3 /* SKRoundProgressView.swift in Sources */,
+				8419204A1DCC854F00FF5BF3 /* AppDelegate.swift in Sources */,
+				846A89C21DD2B33B00D6BE22 /* SKRoundedButton.swift in Sources */,
+				841920611DCC85F600FF5BF3 /* SKBarProgressView.swift in Sources */,
+				8436AE061DD15EF50000B401 /* SKExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8419204D1DCC855000FF5BF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8419204E1DCC855000FF5BF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		841920521DCC855000FF5BF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841920531DCC855000FF5BF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841920561DCC855100FF5BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		841920571DCC855100FF5BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841920591DCC855100FF5BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DH5U9AW4GH;
+				INFOPLIST_FILE = SKProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nachuan.SKProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8419205A1DCC855100FF5BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DH5U9AW4GH;
+				INFOPLIST_FILE = SKProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nachuan.SKProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841920411DCC854E00FF5BF3 /* Build configuration list for PBXProject "SKProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841920561DCC855100FF5BF3 /* Debug */,
+				841920571DCC855100FF5BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841920581DCC855100FF5BF3 /* Build configuration list for PBXNativeTarget "SKProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841920591DCC855100FF5BF3 /* Debug */,
+				8419205A1DCC855100FF5BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8419203E1DCC854E00FF5BF3 /* Project object */;
+}
