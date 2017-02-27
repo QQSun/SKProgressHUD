@@ -532,7 +532,6 @@ class SKProgressHUD: UIView {
     
     
     //MARK: - lifecycle(生命周期)
-    
     override init(frame: CGRect) {
         super.init(frame: frame);
         commonInit();
@@ -594,7 +593,6 @@ class SKProgressHUD: UIView {
         
         button.titleLabel!.textAlignment = .center;
         button.titleLabel!.font = UIFont.boldSystemFont(ofSize: SKDefaultDetailsLabelFontSize);
-//        button.setTitle("取消", for: .normal);
         button.setTitleColor(defaultColor, for: .normal);
         
         for view: UIView in [label, detailsLabel, button] {
@@ -782,15 +780,18 @@ class SKProgressHUD: UIView {
                 }
             }
         }else if isRoundProgress {
+        
+//  注释的方法涉及到了动态特性.会导致第一次出现时不会调用setter方法
 //            let appearance: SKRoundProgressView = SKRoundProgressView.appearance(whenContainedInInstancesOf: [SKProgressHUD.self]);
 //            appearance.progressTintColor = color;
 //            appearance.backgroundTintColor = color.withAlphaComponent(0.1);
+            
+            let picker: UIImagePickerController = UIImagePickerController();
+            
+            
             (indicator as! SKRoundProgressView).progressTintColor = color;
             (indicator as! SKRoundProgressView).backgroundTintColor = color.withAlphaComponent(0.1);
         }else if isBarProgress {
-//            let appearance: SKBarProgressView = SKBarProgressView.appearance(whenContainedInInstancesOf: [SKBarProgressView.self]);
-//            appearance.progressColor = color;
-//            appearance.lineColor = color;
             (indicator as! SKBarProgressView).progressColor = color;
             (indicator as! SKBarProgressView).lineColor = color;
         }else{
@@ -835,7 +836,6 @@ class SKProgressHUD: UIView {
         
         /// 确保最小边缘是约束的
         var sideConstraints: [NSLayoutConstraint] = [NSLayoutConstraint]();
-//        let dic: [String : UIView]? = dictForViews(views: [bezel]);
         let dic: [String : UIView]? = ["bezel" : bezel];
         if dic != nil {
             sideConstraints.append(contentsOf: NSLayoutConstraint.constraints(withVisualFormat: "|-(>=margin)-[bezel]-(>=margin)-|", options: NSLayoutFormatOptions.directionLeadingToTrailing, metrics: metrics, views: dic!));
@@ -876,7 +876,6 @@ class SKProgressHUD: UIView {
         for (index, view) in subViews.enumerated() {
             bezelConstraints!.append(NSLayoutConstraint.init(item: view, attribute: .centerX, relatedBy: .equal, toItem: bezel, attribute: .centerX, multiplier: 1, constant: 0));
             let dic: [String : UIView]? = dictionary(for: view, index: index);
-//            let dic: [String : UIView]? = ["view" : view];
             
             if dic != nil {
                 bezelConstraints!.append(contentsOf: NSLayoutConstraint.constraints(withVisualFormat: "|-(>=margin)-[view\(index)]-(>=margin)-|", options: .directionLeadingToTrailing, metrics: metrics, views: dic!));
@@ -928,9 +927,6 @@ class SKProgressHUD: UIView {
             constraint.priority = priority;
         }
     }
-    
-    
-    
     
     
     deinit {
